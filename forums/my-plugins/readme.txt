@@ -1,0 +1,1 @@
+to activate plugins add _ at the begining of the name (e.g.: _notification.php)

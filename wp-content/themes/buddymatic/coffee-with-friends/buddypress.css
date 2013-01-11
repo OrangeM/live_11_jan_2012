@@ -1,0 +1,441 @@
+/**
+ * BuddyPress Stylesheet
+ */
+
+/***********************************************************************************
+ * Common Element Styles
+ */
+
+/* #search-login-bar -- Comes before the header and holds a search form and quick login bar */
+#search-login-bar {
+}
+	#search-login-bar #search-form {
+		padding:0 !important;
+		}
+		#search-login-bar input { }
+input, #search-login-bar input, #search-login-bar #search-which {
+background:none;
+border:1px solid #999;
+padding:5px;
+}
+	#search-login-bar #login-form, #search-login-bar #logout-link {
+	}
+		#logout-link img { }
+
+/* #header -- Contains the top level navigation and the logo */
+#header {
+}
+	#header ul#nav {
+	}
+		#header ul#nav li { 
+		}
+			#header ul#nav li a {
+			}
+	
+	#header h1#logo { 
+	}
+	
+	#header h1#logo a {
+	} 
+
+/* #container -- Wraps all content after the header and before the footer */
+#container {
+
+}
+
+/* #userbar -- Holds the navigation for the logged in user on all internal pages */
+/* #optionsbar -- Holds the navigation for the currently viewed object (user, group, component etc) internal pages */
+#userbar h3, #optionsbar h3 {
+}
+	/* Center align avatars in both user and optionsbar */
+	#userbar p, #optionsbar p { }
+	#userbar ul, #optionsbar ul { }
+
+/* .content-header -- Comes directly before the content div and can hold page information, or content navigation */
+.content-header {
+}
+
+	/* .content-header-nav -- Navigation items that appear in the content-header are marked with this class. */
+	ul.content-header-nav {
+	}
+		ul.content-header-nav li {
+		}
+			ul.content-header-nav li a {
+			}
+				/* Selected navigation elements include the .current class */
+				ul.content-header-nav li.current a {
+				}
+		
+
+/* #content --  Holds the main content on every page */
+#content {
+}
+.directory #content { }	
+	/* Left menu within the #content div */
+	#content .left-menu {
+	}
+		.left-menu input { width: 80%; }
+		.left-menu ul {
+		}
+		.left-menu h5 { }
+		
+		/* Holds buttons, usually positioned within the content menu */
+		div.button-block {
+		}
+	
+	/* Main column within the #content div */
+	#content .main-column {
+	}
+
+	/* All widget-like blocks of content are wrapped in this (for example on profile and group pages) */
+	div.bp-widget {
+	}
+		div.bp-widget h4 {
+		}
+			/* "See All" links in widget headers */
+			div.bp-widget h4 span { }
+		
+	/* Horizonal listing of content, for example random friends or groups on the profile page */
+	ul.horiz-gallery {
+	}
+		ul.horiz-gallery li {
+		}
+			ul.horiz-gallery li h5 { }
+
+	/* All buttons contain this class */
+	div.generic-button { 
+	}
+	
+	/* All pagination is contained within a div.pagination */
+	div.pagination {
+	}
+		/* div.pagination-links holds the actual numbered page links */
+		div.pagination div.pagination-links {
+		}
+			div.pagination div.pagination-links a {
+			}
+
+		/* Pagination status text - "Viewing X to X of X" */
+		div.pagination div.pag-count {
+		}
+
+	/* All lists of content contain this generic class along with an ID such as "group-list, friend-list" etc. */
+	ul.item-list {
+	}
+		ul.item-list li { 
+		}
+		
+		ul.item-list img.avatar { 
+		}
+		
+		ul.item-list h4 { }
+		
+		/* Actions with a item in a list have a div.action wrapped around them */
+		div.action {
+		}
+
+	/* .activity -- All "active X ago" items have this span.activity wrapped around them */
+	span.activity {
+	}
+
+	/* All avatar images have this class */
+	img.avatar { 
+	}
+
+	/* #message -- This is used for all error/success message feedback */
+	div#message p {
+	}
+		/* #message.error -- When there is an error, there is a .error class appended */
+		div#message.error p {
+		}
+
+		/* #message.info -- Help text or an information box has a .info class appended */
+		div#message.info p {
+		}
+
+	/* .standard-form -- Most forms contain this class */
+	form.standard-form {
+		
+	}
+		form.standard-form label {
+		}
+		
+		form.standard-form input[type=text] {
+		}
+
+		form.standard-form textarea {
+		}
+
+	/* #invite-list -- Lists of friends with checkboxes always carry this ID */
+	div#invite-list {
+	}
+		div#invite-list ul {
+		}
+		
+		div#invite-list input { }
+
+	/* .ajax-loader -- All ajax loading indicators carry this class */
+	.ajax-loader {
+	}
+
+/* #wp-admin-bar -- styles for the global admin bar at the top of every page */
+#wp-admin-bar {
+	background-color:#F3F3F3;
+}
+
+#wp-admin-bar ul li {
+height:28px;
+}
+
+#wp-admin-bar li {
+border-right:1px solid #999999;
+}
+
+#wp-admin-bar ul li ul li {
+border:none;
+height:auto;
+}
+#wp-admin-bar ul li ul a { }
+		
+	#wp-admin-bar ul.main-nav li ul {
+	}
+	
+	#wp-admin-bar ul.main-nav li:hover, #wp-admin-bar ul.main-nav li.sfhover, #wp-admin-bar ul.main-nav li ul li.sfhover {
+	}
+
+	#wp-admin-bar ul.main-nav li ul li:hover a, #wp-admin-bar ul.main-nav li ul li.sfhover a {
+	}
+		#wp-admin-bar ul.main-nav li ul li:hover ul li a, #wp-admin-bar ul.main-nav li ul li.sfhover ul li a {
+		}
+			#wp-admin-bar ul.main-nav li ul li ul li:hover a, #wp-admin-bar ul.main-nav li ul li ul li.sfhover a {
+			}
+	
+/* .widget -- Home page and blog sidebar widgets are wrapped in this class */
+.widget {
+}
+	#sidebar .widget, #sidebar .directory-widget {
+	}
+	
+/* #letter-list -- All directories have a letter list */
+.directory ul#letter-list {
+}
+	.directory ul#letter-list li {
+	}
+.directory ul#letter-list li a {
+background:#A80F11 none repeat scroll 0 0 !important;
+color:#FFFFFF !important;
+margin-right:6px !important;
+padding:1px 3px !important;
+font-family:Verdana;
+font-size:16px;
+text-decoration:none;
+}
+
+
+.directory ul#letter-list li a:hover{
+background:#FFFFFF none repeat scroll 0 0 !important;
+color:#A80F11 !important;
+border:1px solid #A80F11;
+padding:0 2px !important;
+}
+
+
+div.directory-sidebar { }
+/* #footer -- The footer at the bottom of all pages. */
+
+div#footer {
+}
+	
+
+
+
+/***********************************************************************************
+ * Component specific styles 
+ */
+
+/*** Activity Streams ****************/
+
+ul#activity-list, ul#site-wide-stream, ul#activity-filter-links {
+}
+	ul#activity-list li blockquote, ul#site-wide-stream li blockquote {
+	}
+		ul#activity-list li blockquote p, ul#site-wide-stream li blockquote p {
+		}
+	
+	ul#activity-list span.time-since, ul#site-wide-stream span.time-since {
+	}
+
+ul#activity-filter-links {
+}
+
+	ul#activity-filter-links li {
+	}
+		ul#activity-filter-links li a {
+		}
+
+/*** Profiles ****************/
+
+div#profile-name h1, #group-name h1 {
+}
+
+/* Profile Field Display */
+table.profile-fields { 
+}
+
+table.profile-fields td {
+}
+	table.profile-fields td p {
+	}	
+
+	table.profile-fields td.label {
+	}
+	table.profile-fields tr.alt { }
+
+/* Profile Field Edit */
+div.editfield label { 
+}
+
+div.editfield input, div.editfield textarea {
+	width: 60%;
+}
+
+div.checkbox input, div.radio input { }
+div.checkbox label, div.radio label { 
+}
+
+span.label {
+}
+
+/* Profile Change Avatar */
+#avatar-upload-form p { }
+
+
+/*** Wire ****************/
+
+div.wire-post-metadata {
+}
+	div.wire-post-metadata a {
+	}
+
+div#wire-post-new {
+}
+
+	div#wire-post-new-metadata img.avatar { 
+	}
+	
+	div#wire-post-new-input {
+	}
+		div#wire-post-new-input textarea {
+		}
+
+		input#wire-post-submit { 
+		}
+
+form#wire-post-new-form {
+}
+
+/*** Messages ****************/
+
+table#message-threads {
+}
+	table#message-threads tr {
+	}
+
+	table#message-threads td {
+	}
+
+/* View Thread Screen */
+
+/* .message-box -- holds each message in a thread */
+div.message-box {
+}
+	div.message-box .message-metadata {
+	}
+		div.message-box .message-metadata .avatar {
+		}
+		
+		div.message-box .message-metadata h3 {
+		}
+	div.message-box .message-content {
+	}
+
+/*** Registration / Activation ****************/
+
+.register-section {
+}
+	#basic-details-section input, #basic-details-section textarea, 
+	#profile-details-section input, #profile-details-section textarea,
+	input#signup_blog_title {
+	}
+		.register-section .checkbox input { }
+		.register-section .radio input { }
+		#basic-details-section input[type=password] { }
+
+	#blog-details-section input#signup_blog_url { }
+
+	.register-section span.label {
+	}
+	
+	.register-section div.error {
+	}
+
+/*** Status Updates *****************************/
+
+#user-status {
+}
+
+#user-status p {
+}
+	#user-status .time-since {
+	}
+	
+	#user-status a#status-clear-status { 
+	}
+	
+/*** Forums *************************************/
+
+ul#forum-topic-list li {
+}
+	ul#forum-topic-list li.sticky {
+	}
+	
+	ul#forum-topic-list li.closed a.topic-title {
+	}
+	
+	ul#forum-topic-list li span.latest { 
+	}
+	
+	ul#forum-topic-list li div.admin-links, ul#topic-post-list li div.admin-links {
+	}
+		ul#forum-topic-list li:hover div.admin-links, ul#topic-post-list:hover li div.admin-links { }
+
+ul#topic-post-list li .poster-meta {
+}
+
+ul#topic-post-list li .poster-meta .avatar {
+}
+
+ul#topic-post-list .post-content {
+}
+
+	ul#topic-post-list li#topic-meta h3 {
+	}
+	
+ul#topic-post-list li input#submit_reply, input#submit_topic {
+}
+
+div.latest-post {
+}
+
+	div#post-new-topic label, div#edit-topic label, div#edit-post lable div#post-topic-reply label {
+	}
+	
+	div#edit-post textarea {
+	}
+
+	input#topic_title { }
+	input#topic_tags { }
+	textarea#topic_text, textarea#reply_text { }
+
+	input#submit_topic, input#submit_reply {
+	}

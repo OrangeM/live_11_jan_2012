@@ -1,0 +1,55 @@
+/* Remove unwanted elements */
+#small-menu, #access, .leaderboard, #sidebar, .noprint, #join, #sign-in, .separator-arrow, #search, .post-icon, .post-facebook, .post-twitter, .filed-under, #comments_template  { 
+	display: none;
+}
+
+/* Ensure the content spans the full width */
+#wrapper, #container, #content {
+width: 100%; margin: 0; float: none;
+}
+
+/* Change text colour to black (useful for light text on a dark background) */
+.lighttext {
+ color: #000
+}
+
+/* Improve colour contrast of links */
+a:link, a:visited
+{ color: C }
+
+body {font-family:Arial, Helvetica, sans-serif; font-size:10pt; color:#333; line-height:14pt;}
+
+.day, .month {
+	display: inline;
+	font-size:9pt;
+	color:#999;
+}
+
+h2 {
+	text-transform: none;
+	font-size:14px;
+}
+
+
+.author, .author a {
+	text-decoration:none;
+	color:#333;
+	font-style:italic;
+	font-size:9pt;
+}
+
+h2.main_heading a, h1.main_heading a {
+	text-transform: none;
+	font-size:14px;
+	color:#1B75BC;
+	text-decoration:none;
+	margin:0; padding:0;
+}
+
+.post {clear:both;border-bottom:thin dotted #ccc; margin:20px 0;}
+
+.post-footer {display:none;}
+
+#footer ul {display: none}
+#footer a { color:#1B75BC}
+#footer {color:#666; font-size:9pt; }

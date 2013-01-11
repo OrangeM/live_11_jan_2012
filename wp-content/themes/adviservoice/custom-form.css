@@ -1,0 +1,15 @@
+/* - - - - - - - - - - - - - - - - - - - - -
+
+ Title : AV report a problem form	
+ Author : Paola Diana	
+ URL : http://www.inqbase.com
+
+ Last Updated : 6th October 2010
+
+- - - - - - - - - - - - - - - - - - - - - */
+
+.wufoo {font-family:"Helvetica Neue", Helvetica, Arial, sans-serif; font-size:12px;}
+.wufoo .info{display:none;}
+.wufoo .required label.desc {color: #c00;}
+.wufoo label.desc {font:12px "Helvetica Neue", Helvetica, Arial, sans-serif}
+form.wufoo span.req {position:relative; left:-9999em;}

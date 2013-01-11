@@ -1,0 +1,4 @@
+# For security reasons, Option followsymlinks cannot be overridden.
+#Options +FollowSymLinks
+Options +SymLinksIfOwnerMatch
+Redirect /redirect.html http://www.packtpub.com

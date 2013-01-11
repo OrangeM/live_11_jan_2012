@@ -1,0 +1,687 @@
+# Copyright (C) 2010 Daniel Tweedy
+# This file is distributed under the same license as the WP Realtime Sitemap package.
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Realtime Sitemap 1.5.1\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/wp-realtime-sitemap\n"
+"POT-Creation-Date: 2011-02-24 17:38:00+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2011-02-24 19:28-0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"X-Poedit-Language: \n"
+"X-Poedit-Country: \n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;esc_attr__;__ngettext\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: wp-realtime-sitemap.php:65
+#: wp-realtime-sitemap.php:94
+msgid "FAQ"
+msgstr ""
+
+#: wp-realtime-sitemap.php:67
+#: wp-realtime-sitemap.php:93
+#: wp-realtime-sitemap.php:112
+msgid "Support"
+msgstr ""
+
+#: wp-realtime-sitemap.php:69
+#: wp-realtime-sitemap.php:92
+msgid "Donate"
+msgstr ""
+
+#: wp-realtime-sitemap.php:71
+#: wp-realtime-sitemap.php:91
+msgid "Amazon Wishlist"
+msgstr ""
+
+#: wp-realtime-sitemap.php:73
+#: wp-realtime-sitemap.php:96
+msgid "Contact Me"
+msgstr ""
+
+#: wp-realtime-sitemap.php:82
+#: wp-realtime-sitemap.php:111
+msgid "Settings"
+msgstr ""
+
+#: wp-realtime-sitemap.php:90
+msgid "WP Realtime Sitemap Help"
+msgstr ""
+
+#: wp-realtime-sitemap.php:95
+msgid "Home Page"
+msgstr ""
+
+#: wp-realtime-sitemap.php:97
+msgid "Please read the plugin information and FAQ, before asking a question."
+msgstr ""
+
+#: wp-realtime-sitemap.php:113
+msgid "Translations"
+msgstr ""
+
+#: wp-realtime-sitemap.php:128
+#: wp-realtime-sitemap.php:1135
+msgid "WP Realtime Sitemap Options"
+msgstr ""
+
+#. #-#-#-#-#  plugin.pot (WP Realtime Sitemap 1.5)  #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: wp-realtime-sitemap.php:128
+msgid "WP Realtime Sitemap"
+msgstr ""
+
+#: wp-realtime-sitemap.php:138
+#: wp-realtime-sitemap.php:676
+#: wp-realtime-sitemap.php:681
+#: wp-realtime-sitemap.php:686
+#: wp-realtime-sitemap.php:691
+#: wp-realtime-sitemap.php:696
+msgid "Page Settings"
+msgstr ""
+
+#: wp-realtime-sitemap.php:139
+#: wp-realtime-sitemap.php:147
+#: wp-realtime-sitemap.php:160
+#: wp-realtime-sitemap.php:170
+#: wp-realtime-sitemap.php:676
+#: wp-realtime-sitemap.php:708
+#: wp-realtime-sitemap.php:757
+#: wp-realtime-sitemap.php:794
+#: wp-realtime-sitemap.php:809
+msgid "Order By"
+msgstr ""
+
+#: wp-realtime-sitemap.php:140
+#: wp-realtime-sitemap.php:148
+#: wp-realtime-sitemap.php:161
+#: wp-realtime-sitemap.php:171
+#: wp-realtime-sitemap.php:681
+#: wp-realtime-sitemap.php:713
+#: wp-realtime-sitemap.php:762
+#: wp-realtime-sitemap.php:799
+msgid "Order"
+msgstr ""
+
+#: wp-realtime-sitemap.php:141
+#: wp-realtime-sitemap.php:149
+#: wp-realtime-sitemap.php:164
+#: wp-realtime-sitemap.php:174
+msgid "Exclude IDs"
+msgstr ""
+
+#: wp-realtime-sitemap.php:142
+#: wp-realtime-sitemap.php:166
+#: wp-realtime-sitemap.php:691
+msgid "Hierarchy Depth"
+msgstr ""
+
+#: wp-realtime-sitemap.php:143
+#: wp-realtime-sitemap.php:150
+#: wp-realtime-sitemap.php:696
+#: wp-realtime-sitemap.php:723
+msgid "Display Date"
+msgstr ""
+
+#: wp-realtime-sitemap.php:146
+msgid "Post & Custom Post Type Settings"
+msgstr ""
+
+#: wp-realtime-sitemap.php:151
+#: wp-realtime-sitemap.php:155
+#: wp-realtime-sitemap.php:165
+#: wp-realtime-sitemap.php:175
+#: wp-realtime-sitemap.php:728
+#: wp-realtime-sitemap.php:740
+#: wp-realtime-sitemap.php:782
+#: wp-realtime-sitemap.php:814
+msgid "Limit"
+msgstr ""
+
+#: wp-realtime-sitemap.php:153
+#: wp-realtime-sitemap.php:735
+#: wp-realtime-sitemap.php:740
+#: wp-realtime-sitemap.php:745
+msgid "Archive Settings"
+msgstr ""
+
+#: wp-realtime-sitemap.php:154
+msgid "Type"
+msgstr ""
+
+#: wp-realtime-sitemap.php:156
+#: wp-realtime-sitemap.php:162
+#: wp-realtime-sitemap.php:172
+#: wp-realtime-sitemap.php:745
+#: wp-realtime-sitemap.php:767
+#: wp-realtime-sitemap.php:804
+msgid "Post Count"
+msgstr ""
+
+#: wp-realtime-sitemap.php:158
+#: wp-realtime-sitemap.php:757
+#: wp-realtime-sitemap.php:762
+#: wp-realtime-sitemap.php:767
+#: wp-realtime-sitemap.php:772
+#: wp-realtime-sitemap.php:782
+msgid "Category Settings"
+msgstr ""
+
+#: wp-realtime-sitemap.php:159
+#: wp-realtime-sitemap.php:169
+msgid "Show as a Tag Cloud"
+msgstr ""
+
+#: wp-realtime-sitemap.php:163
+#: wp-realtime-sitemap.php:173
+#: wp-realtime-sitemap.php:772
+msgid "Hide Empty"
+msgstr ""
+
+#: wp-realtime-sitemap.php:168
+#: wp-realtime-sitemap.php:794
+#: wp-realtime-sitemap.php:799
+#: wp-realtime-sitemap.php:804
+#: wp-realtime-sitemap.php:809
+#: wp-realtime-sitemap.php:814
+msgid "Tag Settings"
+msgstr ""
+
+#: wp-realtime-sitemap.php:177
+msgid "Header Settings"
+msgstr ""
+
+#: wp-realtime-sitemap.php:178
+msgid "Pages Header"
+msgstr ""
+
+#: wp-realtime-sitemap.php:179
+msgid "Posts Header"
+msgstr ""
+
+#: wp-realtime-sitemap.php:180
+msgid "Archives Header"
+msgstr ""
+
+#: wp-realtime-sitemap.php:181
+msgid "Categories Header"
+msgstr ""
+
+#: wp-realtime-sitemap.php:182
+msgid "Tags Header"
+msgstr ""
+
+#: wp-realtime-sitemap.php:184
+#: wp-realtime-sitemap.php:824
+#: wp-realtime-sitemap.php:829
+#: wp-realtime-sitemap.php:834
+#: wp-realtime-sitemap.php:839
+#: wp-realtime-sitemap.php:844
+#: wp-realtime-sitemap.php:849
+msgid "Display Settings"
+msgstr ""
+
+#: wp-realtime-sitemap.php:185
+#: wp-realtime-sitemap.php:824
+msgid "Show Pages"
+msgstr ""
+
+#: wp-realtime-sitemap.php:186
+#: wp-realtime-sitemap.php:829
+msgid "Show Posts"
+msgstr ""
+
+#: wp-realtime-sitemap.php:187
+msgid "Show ALL Custom Post Types"
+msgstr ""
+
+#: wp-realtime-sitemap.php:188
+#: wp-realtime-sitemap.php:839
+msgid "Show Archives"
+msgstr ""
+
+#: wp-realtime-sitemap.php:189
+#: wp-realtime-sitemap.php:844
+msgid "Show Categories"
+msgstr ""
+
+#: wp-realtime-sitemap.php:190
+#: wp-realtime-sitemap.php:849
+msgid "Show Tags"
+msgstr ""
+
+#: wp-realtime-sitemap.php:194
+#: wp-realtime-sitemap.php:198
+#: wp-realtime-sitemap.php:209
+#: wp-realtime-sitemap.php:215
+msgid "Exclude IDs must be either left blank, or be a comma seperated list of IDs."
+msgstr ""
+
+#: wp-realtime-sitemap.php:199
+msgid "Display Date is to show the date that the post itself was created/published."
+msgstr ""
+
+#: wp-realtime-sitemap.php:200
+msgid "Limit is used to apply a limit as to how many posts should be shown on the sitemap, useful for if you have a very large blog and as such a large number of posts, use -1 to show all posts and not apply a limit."
+msgstr ""
+
+#: wp-realtime-sitemap.php:204
+msgid "Limit is used to apply a limit as to how many archives should be shown on the sitemap, useful for if you have a very large blog and as such a large number of archives, leave blank to show all archives and not apply a limit."
+msgstr ""
+
+#: wp-realtime-sitemap.php:208
+#: wp-realtime-sitemap.php:214
+msgid "All options apply to the tag cloud, unless otherwise explicitly stated."
+msgstr ""
+
+#: wp-realtime-sitemap.php:210
+msgid "Limit is used to apply a limit as to how many categories should be shown on the sitemap, useful for if you have a very large blog and as such a large number of categories, use 0 to show all categories and not apply a limit."
+msgstr ""
+
+#: wp-realtime-sitemap.php:216
+msgid "Limit is used to apply a limit as to how many tags should be shown on the sitemap, useful for if you have a very large blog and as such a large number of tags, use 0 to show all tags and not apply a limit."
+msgstr ""
+
+#: wp-realtime-sitemap.php:220
+msgid "This section is optional, you can change the names of the sections if you wish from the defaults.  Defaults are used when the below options are left blank/empty."
+msgstr ""
+
+#: wp-realtime-sitemap.php:224
+msgid "Choose what you would like to be displayed on your site map."
+msgstr ""
+
+#: wp-realtime-sitemap.php:233
+msgid "Alphabetically (by title) (Default)"
+msgstr ""
+
+#: wp-realtime-sitemap.php:234
+msgid "Page order"
+msgstr ""
+
+#: wp-realtime-sitemap.php:235
+msgid "Creation time"
+msgstr ""
+
+#: wp-realtime-sitemap.php:236
+msgid "Time last modified"
+msgstr ""
+
+#: wp-realtime-sitemap.php:237
+msgid "Numeric Page ID"
+msgstr ""
+
+#: wp-realtime-sitemap.php:238
+msgid "Page author"
+msgstr ""
+
+#: wp-realtime-sitemap.php:239
+msgid "Alphabetically (by post slug)"
+msgstr ""
+
+#: wp-realtime-sitemap.php:245
+#: wp-realtime-sitemap.php:291
+#: wp-realtime-sitemap.php:346
+msgid "Sort from lowest to highest (Default)"
+msgstr ""
+
+#: wp-realtime-sitemap.php:246
+#: wp-realtime-sitemap.php:292
+#: wp-realtime-sitemap.php:347
+msgid "Sort from highest to lowest"
+msgstr ""
+
+#: wp-realtime-sitemap.php:252
+msgid "Displays pages at any depth and arranges them hierarchically in nested lists (Default)"
+msgstr ""
+
+#: wp-realtime-sitemap.php:253
+msgid "Displays pages at any depth and arranges them in a single, flat list"
+msgstr ""
+
+#: wp-realtime-sitemap.php:254
+msgid "Displays top-level Pages only"
+msgstr ""
+
+#: wp-realtime-sitemap.php:260
+msgid "Display no date (Default)"
+msgstr ""
+
+#: wp-realtime-sitemap.php:261
+msgid "Display the date last modified"
+msgstr ""
+
+#: wp-realtime-sitemap.php:262
+msgid "Display the date first created"
+msgstr ""
+
+#: wp-realtime-sitemap.php:272
+msgid "Sort by post date (Default)"
+msgstr ""
+
+#: wp-realtime-sitemap.php:273
+msgid "Sort by the numeric author IDs"
+msgstr ""
+
+#: wp-realtime-sitemap.php:274
+msgid "Sort by the numeric category IDs"
+msgstr ""
+
+#: wp-realtime-sitemap.php:275
+msgid "Sort by content"
+msgstr ""
+
+#: wp-realtime-sitemap.php:276
+msgid "Sort by creation date"
+msgstr ""
+
+#: wp-realtime-sitemap.php:277
+msgid "Sort by numeric Post ID"
+msgstr ""
+
+#: wp-realtime-sitemap.php:278
+msgid "Sort by last modified date"
+msgstr ""
+
+#: wp-realtime-sitemap.php:279
+msgid "Sort by stub"
+msgstr ""
+
+#: wp-realtime-sitemap.php:280
+msgid "Sort by parent ID"
+msgstr ""
+
+#: wp-realtime-sitemap.php:281
+msgid "Sort by password"
+msgstr ""
+
+#: wp-realtime-sitemap.php:282
+msgid "Randomly sort results"
+msgstr ""
+
+#: wp-realtime-sitemap.php:283
+msgid "Sort by status"
+msgstr ""
+
+#: wp-realtime-sitemap.php:284
+msgid "Sort by title"
+msgstr ""
+
+#: wp-realtime-sitemap.php:285
+msgid "Sort by type"
+msgstr ""
+
+#: wp-realtime-sitemap.php:298
+#: wp-realtime-sitemap.php:329
+#: wp-realtime-sitemap.php:379
+#: wp-realtime-sitemap.php:435
+#: wp-realtime-sitemap.php:456
+msgid "Yes/On"
+msgstr ""
+
+#: wp-realtime-sitemap.php:299
+#: wp-realtime-sitemap.php:330
+#: wp-realtime-sitemap.php:380
+#: wp-realtime-sitemap.php:436
+#: wp-realtime-sitemap.php:457
+msgid "No/Off (Default)"
+msgstr ""
+
+#: wp-realtime-sitemap.php:309
+msgid "Yearly"
+msgstr ""
+
+#: wp-realtime-sitemap.php:310
+msgid "Monthly (Default)"
+msgstr ""
+
+#: wp-realtime-sitemap.php:311
+msgid "Daily"
+msgstr ""
+
+#: wp-realtime-sitemap.php:312
+msgid "Weekly"
+msgstr ""
+
+#: wp-realtime-sitemap.php:322
+#: wp-realtime-sitemap.php:360
+#: wp-realtime-sitemap.php:410
+msgid "True (Default)"
+msgstr ""
+
+#: wp-realtime-sitemap.php:323
+#: wp-realtime-sitemap.php:361
+#: wp-realtime-sitemap.php:411
+msgid "False"
+msgstr ""
+
+#: wp-realtime-sitemap.php:336
+#: wp-realtime-sitemap.php:386
+msgid "ID"
+msgstr ""
+
+#: wp-realtime-sitemap.php:337
+#: wp-realtime-sitemap.php:387
+msgid "Name (Default)"
+msgstr ""
+
+#: wp-realtime-sitemap.php:338
+#: wp-realtime-sitemap.php:388
+msgid "Slug"
+msgstr ""
+
+#: wp-realtime-sitemap.php:339
+#: wp-realtime-sitemap.php:389
+msgid "Count"
+msgstr ""
+
+#: wp-realtime-sitemap.php:340
+#: wp-realtime-sitemap.php:390
+msgid "Term Group"
+msgstr ""
+
+#: wp-realtime-sitemap.php:353
+#: wp-realtime-sitemap.php:403
+msgid "True"
+msgstr ""
+
+#: wp-realtime-sitemap.php:354
+#: wp-realtime-sitemap.php:404
+msgid "False (Default)"
+msgstr ""
+
+#: wp-realtime-sitemap.php:371
+msgid "All Categories and child Categories (Default)"
+msgstr ""
+
+#: wp-realtime-sitemap.php:372
+msgid "All Categories displayed in flat (no indent) form"
+msgstr ""
+
+#: wp-realtime-sitemap.php:373
+msgid "Show only top level Categories"
+msgstr ""
+
+#: wp-realtime-sitemap.php:396
+msgid "Sort ascending (Default)"
+msgstr ""
+
+#: wp-realtime-sitemap.php:397
+msgid "Sort descending"
+msgstr ""
+
+#: wp-realtime-sitemap.php:421
+#: wp-realtime-sitemap.php:428
+#: wp-realtime-sitemap.php:442
+#: wp-realtime-sitemap.php:449
+msgid "Yes/On (Default)"
+msgstr ""
+
+#: wp-realtime-sitemap.php:422
+#: wp-realtime-sitemap.php:429
+#: wp-realtime-sitemap.php:443
+#: wp-realtime-sitemap.php:450
+msgid "No/Off"
+msgstr ""
+
+#: wp-realtime-sitemap.php:476
+#: wp-realtime-sitemap.php:500
+#: wp-realtime-sitemap.php:544
+#: wp-realtime-sitemap.php:576
+msgid "Comma separated list of IDs."
+msgstr ""
+
+#: wp-realtime-sitemap.php:508
+msgid "-1 to show all."
+msgstr ""
+
+#: wp-realtime-sitemap.php:516
+msgid "leave blank to show all."
+msgstr ""
+
+#: wp-realtime-sitemap.php:536
+#: wp-realtime-sitemap.php:540
+#: wp-realtime-sitemap.php:568
+#: wp-realtime-sitemap.php:572
+msgid "This is ignored with the tag cloud setting."
+msgstr ""
+
+#: wp-realtime-sitemap.php:548
+msgid "0 to show all."
+msgstr ""
+
+#: wp-realtime-sitemap.php:580
+msgid "0 to show all tags."
+msgstr ""
+
+#: wp-realtime-sitemap.php:676
+#: wp-realtime-sitemap.php:681
+#: wp-realtime-sitemap.php:691
+#: wp-realtime-sitemap.php:696
+#: wp-realtime-sitemap.php:708
+#: wp-realtime-sitemap.php:713
+#: wp-realtime-sitemap.php:757
+#: wp-realtime-sitemap.php:762
+#: wp-realtime-sitemap.php:767
+#: wp-realtime-sitemap.php:772
+#: wp-realtime-sitemap.php:794
+#: wp-realtime-sitemap.php:799
+#: wp-realtime-sitemap.php:804
+#: wp-realtime-sitemap.php:809
+msgid "The option choosen is not valid, please try again."
+msgstr ""
+
+#: wp-realtime-sitemap.php:686
+#: wp-realtime-sitemap.php:718
+msgid "Exclude"
+msgstr ""
+
+#: wp-realtime-sitemap.php:686
+msgid "This must be comment seperated for it to be valid, please try again."
+msgstr ""
+
+#: wp-realtime-sitemap.php:708
+#: wp-realtime-sitemap.php:713
+#: wp-realtime-sitemap.php:718
+#: wp-realtime-sitemap.php:723
+#: wp-realtime-sitemap.php:728
+msgid "Post Settings"
+msgstr ""
+
+#: wp-realtime-sitemap.php:718
+msgid "This must be comment seperated list of IDs for it to be valid, please try again."
+msgstr ""
+
+#: wp-realtime-sitemap.php:723
+#: wp-realtime-sitemap.php:824
+#: wp-realtime-sitemap.php:829
+#: wp-realtime-sitemap.php:834
+#: wp-realtime-sitemap.php:839
+#: wp-realtime-sitemap.php:844
+#: wp-realtime-sitemap.php:849
+msgid "Only Yes/On or No/Off are accepted as valid inputs."
+msgstr ""
+
+#: wp-realtime-sitemap.php:728
+#: wp-realtime-sitemap.php:740
+msgid "Only integers are accepted as valid inputs."
+msgstr ""
+
+#: wp-realtime-sitemap.php:735
+msgid "Archive Type"
+msgstr ""
+
+#: wp-realtime-sitemap.php:782
+#: wp-realtime-sitemap.php:814
+msgid "Only integers or -1 are accepted as valid inputs."
+msgstr ""
+
+#: wp-realtime-sitemap.php:834
+msgid "Show Custom Post Types"
+msgstr ""
+
+#: wp-realtime-sitemap.php:1128
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""
+
+#: wp-realtime-sitemap.php:1137
+msgid "WP Realtime Sitemap is free to use, however, it has required a great deal of time and effort to develop and if it has been useful you can help support this development by making a small donation. This will act as an incentive for me to carry on developing, providing countless hours of support, and including new features and suggestions. You get some useful software and I get to carry on making it. Everybody wins."
+msgstr ""
+
+#: wp-realtime-sitemap.php:1138
+msgid "If you have yet to rate my plugin then can you please do that also, thank you!"
+msgstr ""
+
+#: wp-realtime-sitemap.php:1159
+msgid "This plugin can easily be styled by using the following ids below should you need to, if you require more flexibility than this please feel free to suggest something"
+msgstr ""
+
+#: wp-realtime-sitemap.php:1175
+msgid "Save Changes"
+msgstr ""
+
+#: wp-realtime-sitemap.php:1200
+msgid "Pages"
+msgstr ""
+
+#: wp-realtime-sitemap.php:1228
+#: wp-realtime-sitemap.php:1264
+msgid "Permalink to %s"
+msgstr ""
+
+#: wp-realtime-sitemap.php:1233
+msgid "Posts"
+msgstr ""
+
+#: wp-realtime-sitemap.php:1276
+msgid "Archives"
+msgstr ""
+
+#: wp-realtime-sitemap.php:1284
+msgid "Categories"
+msgstr ""
+
+#: wp-realtime-sitemap.php:1300
+msgid "Tags"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://www.daniel-tweedy.co.uk/redir/wp-realtime-sitemap-home/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Adds a sitemap to your Wordpress blog that is always up-to-date. Add `[wp-realtime-sitemap show=\"all\"]` to any page or post and the site map will be added there. Use Settings->WP Realtime Sitemap to set options."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Daniel Tweedy"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.daniel-tweedy.co.uk/"
+msgstr ""
+

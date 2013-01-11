@@ -1,0 +1,96 @@
+/*
+THEME NAME: Buddymatic
+THEME URI: http://freebpthemes.com/themes/buddymatic/
+DESCRIPTION: The definitive WordPress theme for 2010. Buddymatic is a highly extensible Theme Framework for WordPress &amp; WordPress MU blogs including BuddyPress enabled home and member blogs. This framework features 13 widget-ready areas, drop-down menus, grid-based layout samples, plugin integration, shortcodes for your footer, &amp; a whole lot more. BuddyPress 1.1.X functionality is integrated into the framework and activated when BuddyPress is detected. Perfect for any blog or WordPress MU site, Buddymatic is based on <a href="http://wordpress.org/extend/themes/thematic">Thematic</a> by <a href="http://themeshaper.com/">Ian Stewart</a> and works with Thematic child themes. Buddymatic includes 2 BuddyPress ready child themes: Coffee with Friends by <a href="http://wpmama.com/themes/coffee-with-friends/">Daisy Olsen</a> and a Buddymatic Sample Child Theme ready for customization. 
+VERSION: 0.9.6.4
+AUTHOR: Ron Rennick
+AUTHOR URI: http://ronandandrea.com/
+TAGS: white, three-columns, two-columns, fixed-width, theme-options, left-sidebar, right-sidebar, threaded-comments, sticky-post, microformats
+.
+A great deal of thanks go to Ian Stewart and the work he has done in developing Thematic which was an awesome launchpad for this framework.
+
+Coffee with Friends Child Theme is copyright Daisy Olsen http://wpmama.com/
+The Buddymatic Theme is copyright Ron Rennick http://ronandandrea.com/ 
+Portions of Buddymatic from The Thematic Theme are copyright Ian Stewart http://themeshaper.com/
+
+This work, like WordPress, is released under GNU General Public License, version 2 (GPL).
+http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
+.
+*/
+
+/* Reset browser defaults */
+@import url('library/styles/reset.css');
+
+/* Apply basic typography styles */
+@import url('library/styles/typography.css');
+
+/* Apply a basic layout */
+@import url('library/layouts/2c-r-fixed.css');
+
+/* Apply basic image styles */
+@import url('library/styles/images.css');
+
+/* Apply default theme styles and colors */
+@import url('library/styles/default.css');
+
+/* Prepare theme for plugins */
+@import url('library/styles/plugins.css');
+
+/* -------------------------------------------------------------- 
+   
+   Default styles for Images
+   
+   I've duplicated these styles here from images.css in
+   order to get Thematic through the auto-checker at the
+   official WordPress Themes directory.
+   
+   When the directory can hunt though css files linked
+   through @import the styles below will no longer be
+   neccesary and will be removed.
+   
+   Cheers. --Ian Stewart
+  
+-------------------------------------------------------------- */   
+
+.entry-content img {
+    margin: 0 0 18px 0;
+    max-width:100%;
+}
+.alignleft,
+img.alignleft {
+	float: left;
+    margin-right:20px;
+}
+.alignright,
+img.alignright {
+	display: block;
+	float: right;
+    margin-left:20px;
+}
+.aligncenter,
+img.aligncenter {
+	margin-left:auto;
+	margin-right:auto;
+	display: block;
+	clear: both;
+}
+.wp-caption {
+	text-align: center;
+	margin-bottom:18px;
+}
+.wp-caption img {
+	margin: 0;
+	padding: 0;
+	border: 0 none;
+}
+.wp-caption p.wp-caption-text {
+	margin: 0;
+	padding:5px;
+}
+.gallery img {
+    margin:0;
+}
+.wp-smiley { /* Prevent the smileys from breaking line-height */
+	max-height:12px;
+	margin:0 !important;
+}
